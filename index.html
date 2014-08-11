@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Catalogmetadata by okfde</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Catalogmetadata</h1>
+        <p>A website collecting the metadata (API calls or file downloads) offered by data catalogs in Germany</p>
+
+        <p class="view"><a href="https://github.com/okfde/catalogmetadata">View the Project on GitHub <small>okfde/catalogmetadata</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/okfde/catalogmetadata/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/okfde/catalogmetadata/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/okfde/catalogmetadata">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p>The following links should allow you to download the metadata of the data catalog for each city. Please note that in some cases the download is only an overview and that further info may be available with further API calls or visits to the links contained in the meta data. If your city is missing, please add it!</p>
+
+<h2>
+<a name="govdatade" class="anchor" href="#govdatade"><span class="octicon octicon-link"></span></a>Govdata.de</h2>
+
+<p><a href="https://www.govdata.de/ckan/dump/govdata.de-daily.json.gz">JSON, gzipped</a></p>
+
+<p>N.B. There is actually an API call to get all the meta data, but after a delay, it generates an error. The file is a dump that is <a href="https://www.govdata.de/daten/-/details/govdata-metadatenkatalog">generated daily</a>.</p>
+
+<h2>
+<a name="berlin" class="anchor" href="#berlin"><span class="octicon octicon-link"></span></a>Berlin</h2>
+
+<p><a href="daten.berlin.de/datensaetze/rss.xml">XML (RSS)</a>
+N.B. The info is very limited. A script that visits each page and scrapes the files offered is available <a href="">here</a>. It would be great to extend this to grab all the metadata.</p>
+
+<h2>
+<a name="bonn" class="anchor" href="#bonn"><span class="octicon octicon-link"></span></a>Bonn</h2>
+
+<p><a href="http://opendata.bonn.de/api/3/action/current_package_list_with_resources">JSON</a></p>
+
+<h2>
+<a name="bremen" class="anchor" href="#bremen"><span class="octicon octicon-link"></span></a>Bremen</h2>
+
+<p><a href="http://daten.bremen.de/sixcms/detail.php?template=export_daten_json_d">JSON</a></p>
+
+<h2>
+<a name="k%C3%B6ln" class="anchor" href="#k%C3%B6ln"><span class="octicon octicon-link"></span></a>Köln</h2>
+
+<p><a href="http://offenedaten-koeln.de/api/3/action/current_package_list_with_resources">JSON</a></p>
+
+<h2>
+<a name="moers" class="anchor" href="#moers"><span class="octicon octicon-link"></span></a>Moers</h2>
+
+<p><a href="http://www.moers.de/C1257221003C7526/html/063BA200D9B9F899C1257B2D003292FE?opendocument&amp;c1=1000">http://www.moers.de/C1257221003C7526/html/063BA200D9B9F899C1257B2D003292FE?opendocument&amp;c1=1000</a></p>
+
+<p>N.B. This is only a link to a search result that conveniently lists all data sets. A script that visits each page and scrapes the files offered is available <a href="">here</a>. It would be great to extend this to grab all the metadata.</p>
+
+<h2>
+<a name="rostock" class="anchor" href="#rostock"><span class="octicon octicon-link"></span></a>Rostock</h2>
+
+<p><a href="http://www.opendata-hro.de/api/2/search/dataset?q=&amp;limit=1000&amp;all_fields=1">JSON</a></p>
+
+<p>N.B. More data is available by using the API for each data set. This is demonstrated in the script <a href="">here</a></p>
+
+<h2>
+<a name="ulm" class="anchor" href="#ulm"><span class="octicon octicon-link"></span></a>Ulm</h2>
+
+<p><a href="https://raw.githubusercontent.com/okfde/odm-datenerfassung/master/metadata/ulm/catalog.csv">XML: simple concatenation of all files as offered by the city of Ulm and wrapped within one xml tag</a>
+<a href="https://raw.githubusercontent.com/okfde/odm-datenerfassung/master/metadata/ulm/catalog.xml">CSV</a></p>
+
+<h2>
+<a name="wennigsen" class="anchor" href="#wennigsen"><span class="octicon octicon-link"></span></a>Wennigsen</h2>
+
+<p><a href="http://data.wennigsen.net">http://data.wennigsen.net</a> </p>
+
+<p>N.B. This is only a set of links in HTML</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/okfde">okfde</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
