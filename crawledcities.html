@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <title>Quick report</title>
+    <title>Cities crawled</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <style type="text/css">
       body {  font-family: verdana, helvetica, sans-serif; margin: 0px; padding: 0; }
@@ -28,7 +28,7 @@
     </style>
   </head>
   <body>
-    <div id="ReportHeader"><h1>Quick report</h1><b>Generated: </b>Mon Oct  6 10:10:55 2014<br /><b>Database: </b>odm on postgres@127.0.0.1:5432<br /></div>
+    <div id="ReportHeader"><h1>Cities crawled</h1><b>Generated: </b>Mon Oct  6 12:20:51 2014<br /><b>Database: </b>odm on postgres@127.0.0.1:5432<br /></div>
     <div id="ReportDetails">
       <h2>Query results</h2>
       <table>
@@ -89,56 +89,60 @@
           <td class="ReportTableValueCell">3813</td>
         </tr>
         <tr class="ReportDetailsOddDataRow">
+          <td class="ReportTableValueCell">Münster</td>
+          <td class="ReportTableValueCell">554</td>
+        </tr>
+        <tr class="ReportDetailsEvenDataRow">
           <td class="ReportTableValueCell">Neu Wulmstorf</td>
           <td class="ReportTableValueCell">44</td>
         </tr>
-        <tr class="ReportDetailsEvenDataRow">
+        <tr class="ReportDetailsOddDataRow">
           <td class="ReportTableValueCell">Puchheim, St</td>
           <td class="ReportTableValueCell">0</td>
         </tr>
-        <tr class="ReportDetailsOddDataRow">
+        <tr class="ReportDetailsEvenDataRow">
           <td class="ReportTableValueCell">Quickborn</td>
           <td class="ReportTableValueCell">0</td>
         </tr>
-        <tr class="ReportDetailsEvenDataRow">
+        <tr class="ReportDetailsOddDataRow">
           <td class="ReportTableValueCell">Rheinstetten</td>
           <td class="ReportTableValueCell">16</td>
         </tr>
-        <tr class="ReportDetailsOddDataRow">
+        <tr class="ReportDetailsEvenDataRow">
           <td class="ReportTableValueCell">Rostock</td>
           <td class="ReportTableValueCell">24</td>
         </tr>
-        <tr class="ReportDetailsEvenDataRow">
+        <tr class="ReportDetailsOddDataRow">
           <td class="ReportTableValueCell">Siegen</td>
           <td class="ReportTableValueCell">0</td>
         </tr>
-        <tr class="ReportDetailsOddDataRow">
+        <tr class="ReportDetailsEvenDataRow">
           <td class="ReportTableValueCell">Stuttgart</td>
           <td class="ReportTableValueCell">1204</td>
         </tr>
-        <tr class="ReportDetailsEvenDataRow">
+        <tr class="ReportDetailsOddDataRow">
           <td class="ReportTableValueCell">Uetze</td>
           <td class="ReportTableValueCell">16</td>
         </tr>
-        <tr class="ReportDetailsOddDataRow">
+        <tr class="ReportDetailsEvenDataRow">
           <td class="ReportTableValueCell">Ulm</td>
           <td class="ReportTableValueCell">77</td>
         </tr>
-        <tr class="ReportDetailsEvenDataRow">
+        <tr class="ReportDetailsOddDataRow">
           <td class="ReportTableValueCell">Waghäusel</td>
           <td class="ReportTableValueCell">0</td>
         </tr>
-        <tr class="ReportDetailsOddDataRow">
+        <tr class="ReportDetailsEvenDataRow">
           <td class="ReportTableValueCell">Wennigsen (Deister)</td>
           <td class="ReportTableValueCell">0</td>
         </tr>
-        <tr class="ReportDetailsEvenDataRow">
+        <tr class="ReportDetailsOddDataRow">
           <td class="ReportTableValueCell">Witten</td>
           <td class="ReportTableValueCell">5</td>
         </tr>
       </table>
       <br />
-      <p class="ReportTableInfo">25 rows with 2 columns retrieved.</p>
+      <p class="ReportTableInfo">26 rows with 2 columns retrieved.</p>
       <pre class="ReportSQL">SELECT city_fullname, crawl_items_data FROM cities WHERE crawled = TRUE ORDER BY city_fullname</pre>
     </div>
     <div id="ReportFooter">
