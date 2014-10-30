@@ -29,11 +29,15 @@
 <p>N.B. There is actually an API call to get all the meta data, but after a delay, it generates an error. The file is a dump that is <a href="https://www.govdata.de/daten/-/details/govdata-metadatenkatalog">generated daily</a>.</p>
 
 <h2>
+<a name="aachen" class="anchor" href="#bonn"><span class="octicon octicon-link"></span></a>Aachen</h2>
+<p><a href="http://offenedaten.aachen.de/api/3/action/current_package_list_with_resources">JSON</a></p>
+<!--
+<h2>
 <a name="berlin" class="anchor" href="#berlin"><span class="octicon octicon-link"></span></a>Berlin</h2>
 
 <p><a href="daten.berlin.de/datensaetze/rss.xml">XML (RSS)</a></p>
 <p>N.B. The info is very limited. A script that visits each page and scrapes the files offered is available <a href="">here</a>. It would be great to extend this to grab all the metadata.</p>
-
+-->
 <h2>
 <a name="bonn" class="anchor" href="#bonn"><span class="octicon octicon-link"></span></a>Bonn</h2>
 
@@ -45,11 +49,10 @@
 <p><a href="http://daten.bremen.de/sixcms/detail.php?template=export_daten_json_d">JSON</a></p>
 
 <h2>
-<a name="k%C3%B6ln" class="anchor" href="#k%C3%B6ln"><span class="octicon octicon-link"></span></a>Köln</h2>
-<ul>
-<li><a href="http://offenedaten-koeln.de/api/3/action/current_package_list_with_resources">JSON (direct from API)</a></li>
-<li><a href="https://raw.githubusercontent.com/okfde/odm-datenerfassung/master/metadata/koeln/catalog.json">Extended JSON (dump of calls to API for all datasets, 1 missing)</a></li>
-</ul>
+<a name="frankfurt" class="anchor" href="#bonn"><span class="octicon octicon-link"></span></a>Frankfurt</h2>
+
+<p><a href="http://offenedaten.frankfurt.de/api/3/action/current_package_list_with_resources">JSON</a></p>
+
 <h2>
 <a name="hamburg" class="anchor" href="#hamburg"><span class="octicon octicon-link"></span></a>Hamburg</h2>
 
@@ -57,6 +60,13 @@
   <li>
     <a href="https://raw.githubusercontent.com/okfde/odm-datenerfassung/master/metadata/hamburg/catalog.json.gz">JSON (gzipped)</a>: All JSON metadata of all records (<a href="http://suche.transparenz.hamburg.de/api/3/action/current_package_list_with_resources">API query to get this</a> does not seem to work at this time, nor is it sensible to try and use it as the data volume is &gt; 100MB)</a>
   </li>
+</ul>
+
+<h2>
+<a name="k%C3%B6ln" class="anchor" href="#k%C3%B6ln"><span class="octicon octicon-link"></span></a>Köln</h2>
+<ul>
+<li><a href="http://offenedaten-koeln.de/api/3/action/current_package_list_with_resources">JSON (direct from API)</a></li>
+<li><a href="https://raw.githubusercontent.com/okfde/odm-datenerfassung/master/metadata/koeln/catalog.json">Extended JSON (dump of calls to API for all datasets, 1 missing)</a></li>
 </ul>
 <h2>
 <a name="moers" class="anchor" href="#moers"><span class="octicon octicon-link"></span></a>Moers</h2>
