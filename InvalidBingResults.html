@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Quick report</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style type="text/css">
+      body {  font-family: verdana, helvetica, sans-serif; margin: 0px; padding: 0; }
+      h1 { font-weight: bold; font-size: 150%; border-bottom-style: solid; border-bottom-width: 2px; margin-top: 0px; padding-bottom: 0.5ex; color: #eeeeee; }
+      h2 { font-size: 130%; padding-bottom: 0.5ex; color: #009ACE; border-bottom-style: solid; border-bottom-width: 2px; }
+      h3 { font-size: 110%; padding-bottom: 0.5ex; color: #000000; }
+      th { text-align: left; background-color: #009ACE; color: #eeeeee; }
+      #ReportHeader { padding: 10px; background-color: #009ACE; color: #eeeeee; border-bottom-style: solid; border-bottom-width: 2px; border-color: #999999; }
+      #ReportHeader th { width: 25%; white-space: nowrap; vertical-align: top; }
+      #ReportHeader td { vertical-align: top; color: #eeeeee; }
+      #ReportNotes { padding: 10px; background-color: #eeeeee; font-size: 80%; border-bottom-style: solid; border-bottom-width: 2px; border-color: #999999; }
+      .ReportSQL { margin-bottom: 10px; padding: 10px; display: block; background-color: #eeeeee; font-family: monospace; }
+      #ReportDetails { margin-left: 10px; margin-right: 10px; margin-bottom: 10px; }
+      #ReportDetails td, th { font-size: 80%; margin-left: 2px; margin-right: 2px; }
+      #ReportDetails th { border-bottom-color: #777777; border-bottom-style: solid; border-bottom-width: 2px; }
+      .ReportDetailsOddDataRow { background-color: #dddddd; }
+      .ReportDetailsEvenDataRow { background-color: #eeeeee; }
+      .ReportTableHeaderCell { background-color: #dddddd; color: #009ACE; vertical-align: top; font-size: 80%; white-space: nowrap; }
+      .ReportTableValueCell { vertical-align: top; font-size: 80%; white-space: nowrap; }
+      .ReportTableInfo { font-size: 80%; font-style: italic; }
+      #ReportFooter { font-weight: bold; font-size: 80%; text-align: right; background-color: #009ACE; color: #eeeeee; margin-top: 10px; padding: 2px; border-bottom-style: solid; border-bottom-width: 2px; border-top-style: solid; border-top-width: 2px; border-color: #999999; }
+      #ReportFooter a { color: #ffffff; text-decoration: none; }
+    </style>
+  </head>
+  <body>
+    <div id="ReportHeader"><h1>Quick report</h1><b>Generated: </b>Wed Nov  5 16:41:44 2014<br /><b>Database: </b>odm on postgres@127.0.0.1:5432<br /></div>
+    <div id="ReportDetails">
+      <h2>Query results</h2>
+      <table>
+        <tr>
+          <th class="ReportTableHeaderCell" width="50%">url</th>
+          <th class="ReportTableHeaderCell" width="50%">formats</th>
+        </tr>
+        <tr class="ReportDetailsEvenDataRow">
+          <td class="ReportTableValueCell">http://www.nk-se.de/nachrichten_extern.html</td>
+          <td class="ReportTableValueCell">{HTML}</td>
+        </tr>
+        <tr class="ReportDetailsOddDataRow">
+          <td class="ReportTableValueCell">http://www.essen.de/veranstaltungen_4/veranstaltungendetail_892268.de.jsp?Begin=22.11.2014</td>
+          <td class="ReportTableValueCell">{2014}</td>
+        </tr>
+        <tr class="ReportDetailsEvenDataRow">
+          <td class="ReportTableValueCell">http://www.dresden.de/de/02/035/01/2014/11/pm_004.php</td>
+          <td class="ReportTableValueCell">{PHP}</td>
+        </tr>
+        <tr class="ReportDetailsOddDataRow">
+          <td class="ReportTableValueCell">http://www.dresden.de/de/02/035/01/2014/11/pm_005.php</td>
+          <td class="ReportTableValueCell">{PHP}</td>
+        </tr>
+        <tr class="ReportDetailsEvenDataRow">
+          <td class="ReportTableValueCell">http://www.nuernberg.de/internet/liegenschaftsamt/zuranmietung.html</td>
+          <td class="ReportTableValueCell">{HTML}</td>
+        </tr>
+        <tr class="ReportDetailsOddDataRow">
+          <td class="ReportTableValueCell">http://go.nuernberg.de/5f3885c5</td>
+          <td class="ReportTableValueCell">{DE/5F3885C5}</td>
+        </tr>
+        <tr class="ReportDetailsEvenDataRow">
+          <td class="ReportTableValueCell">http://www.duisburg.de/news/102010100000461101.php</td>
+          <td class="ReportTableValueCell">{PHP}</td>
+        </tr>
+        <tr class="ReportDetailsOddDataRow">
+          <td class="ReportTableValueCell">http://www.muenchen.de/rathaus/Stadtverwaltung/Kulturreferat/Presseservice/Pressemeldungen/2014_11/Monacensia.html</td>
+          <td class="ReportTableValueCell">{HTML}</td>
+        </tr>
+        <tr class="ReportDetailsEvenDataRow">
+          <td class="ReportTableValueCell">http://www.muenchen.de/shopping/orte/120716.html</td>
+          <td class="ReportTableValueCell">{HTML}</td>
+        </tr>
+        <tr class="ReportDetailsOddDataRow">
+          <td class="ReportTableValueCell">http://www.muenchen.de/rathaus/Stadtverwaltung/Kreisverwaltungsreferat/Branddirektion-Muenchen/Aktuelles/2014/November-2014/Fliegerbombe_Perlach.html</td>
+          <td class="ReportTableValueCell">{HTML}</td>
+        </tr>
+        <tr class="ReportDetailsEvenDataRow">
+          <td class="ReportTableValueCell">http://www.muenchen.de/rathaus/Stadtverwaltung/Kulturreferat/Presseservice/Pressemeldungen/2014_11/Pathos-Theater.html</td>
+          <td class="ReportTableValueCell">{HTML}</td>
+        </tr>
+        <tr class="ReportDetailsOddDataRow">
+          <td class="ReportTableValueCell">http://www.hamburg.de/pressearchiv-fhh/4398768/2014-11-04-bgv-grippeschutzimpfung/</td>
+          <td class="ReportTableValueCell">{DE/PRESSEARCHIV-FHH/4398768/2014-11-04-BGV-GRIPPESCHUTZIMPFUNG/}</td>
+        </tr>
+        <tr class="ReportDetailsEvenDataRow">
+          <td class="ReportTableValueCell">http://chinatime.hamburg.de/</td>
+          <td class="ReportTableValueCell">{DE/}</td>
+        </tr>
+        <tr class="ReportDetailsOddDataRow">
+          <td class="ReportTableValueCell">http://produktion3.guetersloh.de/Z3VldGVyc2xvaGQ0Y21zOjkzNzI=.x4s</td>
+          <td class="ReportTableValueCell">{X4S}</td>
+        </tr>
+        <tr class="ReportDetailsEvenDataRow">
+          <td class="ReportTableValueCell">http://www.guetersloh.de/tiny/0bR/upload/binarydata_gueterslohd4cms/75/76/06/00/00/00/67675/Elternkurse_2._Halbjahr_2014.pdf</td>
+          <td class="ReportTableValueCell">{PDF}</td>
+        </tr>
+        <tr class="ReportDetailsOddDataRow">
+          <td class="ReportTableValueCell">http://www.guetersloh.de/presse/news.jsp?cid=11132</td>
+          <td class="ReportTableValueCell">{JSP?CID=11132}</td>
+        </tr>
+        <tr class="ReportDetailsEvenDataRow">
+          <td class="ReportTableValueCell">http://produktion3.guetersloh.de/upload/binarydata_gueterslohd4cms/43/20/00/00/00/00/2043/vorlBaustelleneinrichtungsplan.pdf</td>
+          <td class="ReportTableValueCell">{PDF}</td>
+        </tr>
+        <tr class="ReportDetailsOddDataRow">
+          <td class="ReportTableValueCell">http://www.salzgitter.de/tourismus/events/intern/126010100000077234.php</td>
+          <td class="ReportTableValueCell">{PHP}</td>
+        </tr>
+        <tr class="ReportDetailsEvenDataRow">
+          <td class="ReportTableValueCell">http://www.salzgitter.de/tourismus/events/intern/126010100000075594.php</td>
+          <td class="ReportTableValueCell">{PHP}</td>
+        </tr>
+        <tr class="ReportDetailsOddDataRow">
+          <td class="ReportTableValueCell">http://www.bibliothek.zwickau.de/Portals/0/Neuerwerbungen/neuerw0713.pdf</td>
+          <td class="ReportTableValueCell">{PDF}</td>
+        </tr>
+        <tr class="ReportDetailsEvenDataRow">
+          <td class="ReportTableValueCell">http://www.zwickau.de/media/pdfs/sitzung/2010/188-10.pdf</td>
+          <td class="ReportTableValueCell">{PDF}</td>
+        </tr>
+        <tr class="ReportDetailsOddDataRow">
+          <td class="ReportTableValueCell">http://www.zwickau.de/de/stadtbibliothek/medien/neuerw0913.pdf</td>
+          <td class="ReportTableValueCell">{PDF}</td>
+        </tr>
+        <tr class="ReportDetailsEvenDataRow">
+          <td class="ReportTableValueCell">http://www.bibliothek.zwickau.de/Portals/0/Neuerwerbungen/neuerw0213.pdf</td>
+          <td class="ReportTableValueCell">{PDF}</td>
+        </tr>
+        <tr class="ReportDetailsOddDataRow">
+          <td class="ReportTableValueCell">http://www.bibliothek.zwickau.de/Portals/0/Neuerwerbungen/neuerw0313.pdf</td>
+          <td class="ReportTableValueCell">{PDF}</td>
+        </tr>
+        <tr class="ReportDetailsEvenDataRow">
+          <td class="ReportTableValueCell">http://www.kiel.de/</td>
+          <td class="ReportTableValueCell">{DE/}</td>
+        </tr>
+        <tr class="ReportDetailsOddDataRow">
+          <td class="ReportTableValueCell">http://www.kreis-recklinghausen.de/</td>
+          <td class="ReportTableValueCell">{DE/}</td>
+        </tr>
+        <tr class="ReportDetailsEvenDataRow">
+          <td class="ReportTableValueCell">http://www.berlin.de/imperia/md/content/sen-familie/kindertagesbetreuung/persberechnung_allgemein.xls?download.html</td>
+          <td class="ReportTableValueCell">{HTML}</td>
+        </tr>
+        <tr class="ReportDetailsOddDataRow">
+          <td class="ReportTableValueCell">http://www.stuttgart.de/kontakt?mailto=internetredaktion@stuttgart.de&amp;fromPageTitle=Acht+Arbeitsgruppen+erstellen+den+Stuttgarter+Fokus-Aktionsplan+f%C3%BCr+die+Umsetzung+der+UN-Behindertenrechtskonvention&amp;fromPageURL=http%3A%2F%2Fwww.stuttgart.de%2Fitem%2Fshow%2F273273%2F1%2F9%2F552857%3F</td>
+          <td class="ReportTableValueCell">{DE%2FITEM%2FSHOW%2F273273%2F1%2F9%2F552857%3F}</td>
+        </tr>
+        <tr class="ReportDetailsEvenDataRow">
+          <td class="ReportTableValueCell">http://www.stuttgart.de/item/recommend/273273?xobjecttype=item&amp;xobjectid=552942&amp;xkontextid=273273</td>
+          <td class="ReportTableValueCell">{DE/ITEM/RECOMMEND/273273?XOBJECTTYPE=ITEM&amp;XOBJECTID=552942&amp;XKONTEXTID=273273}</td>
+        </tr>
+        <tr class="ReportDetailsOddDataRow">
+          <td class="ReportTableValueCell">http://www.stuttgart.de/kontakt?mailto=internetredaktion@stuttgart.de&amp;fromPageTitle=Baumf%C3%A4llung+am+GAZI-Stadion&amp;fromPageURL=http%3A%2F%2Fwww.stuttgart.de%2Fitem%2Fshow%2F273273%2F1%2F9%2F552944%3F</td>
+          <td class="ReportTableValueCell">{DE%2FITEM%2FSHOW%2F273273%2F1%2F9%2F552944%3F}</td>
+        </tr>
+        <tr class="ReportDetailsEvenDataRow">
+          <td class="ReportTableValueCell">http://www.stuttgart.de/item/recommend/273273?xobjecttype=item&amp;xobjectid=552857&amp;xkontextid=273273</td>
+          <td class="ReportTableValueCell">{DE/ITEM/RECOMMEND/273273?XOBJECTTYPE=ITEM&amp;XOBJECTID=552857&amp;XKONTEXTID=273273}</td>
+        </tr>
+        <tr class="ReportDetailsOddDataRow">
+          <td class="ReportTableValueCell">http://www.wiesbaden.de/</td>
+          <td class="ReportTableValueCell">{DE/}</td>
+        </tr>
+        <tr class="ReportDetailsEvenDataRow">
+          <td class="ReportTableValueCell">http://www.gera.de/sixcms/detail.php?id=171158</td>
+          <td class="ReportTableValueCell">{PHP?ID=171158}</td>
+        </tr>
+        <tr class="ReportDetailsOddDataRow">
+          <td class="ReportTableValueCell">http://www.gera.de/sixcms/detail.php?id=127858</td>
+          <td class="ReportTableValueCell">{PHP?ID=127858}</td>
+        </tr>
+        <tr class="ReportDetailsEvenDataRow">
+          <td class="ReportTableValueCell">http://www.schwarzesbrett.bremen.de/verkauf-angebote/garten-parzellen-verkauf/pachtparzelle-findorff600m2-grstueck-nahe-unisee-374259.html</td>
+          <td class="ReportTableValueCell">{HTML}</td>
+        </tr>
+        <tr class="ReportDetailsOddDataRow">
+          <td class="ReportTableValueCell">http://www.schwarzesbrett.bremen.de/verkauf-angebote/arbeitsplatzangebote-verkauf/kursleiterin-gesucht-376723.html</td>
+          <td class="ReportTableValueCell">{HTML}</td>
+        </tr>
+        <tr class="ReportDetailsEvenDataRow">
+          <td class="ReportTableValueCell">http://www.seniorenlotse.bremen.de/43573492%26local_template=17_kommentare_d</td>
+          <td class="ReportTableValueCell">{DE/43573492%26LOCAL_TEMPLATE=17_KOMMENTARE_D}</td>
+        </tr>
+        <tr class="ReportDetailsOddDataRow">
+          <td class="ReportTableValueCell">http://www.schwarzesbrett.bremen.de/verkauf-angebote/cd-dvd-buecher-verkauf/moerder-ohne-gesichtwallandermankell-362689.html</td>
+          <td class="ReportTableValueCell">{HTML}</td>
+        </tr>
+        <tr class="ReportDetailsEvenDataRow">
+          <td class="ReportTableValueCell">http://www.moers.de/c125722e0057acf2/files/baumkreisroute.gpx/$file/baumkreisroute.gpx?openelement</td>
+          <td class="ReportTableValueCell">{GPX?OPENELEMENT}</td>
+        </tr>
+        <tr class="ReportDetailsOddDataRow">
+          <td class="ReportTableValueCell">http://www.moers.de/c125722e0057acf2/files/baumkreisroute.crs/$file/baumkreisroute.crs?openelement</td>
+          <td class="ReportTableValueCell">{CRS?OPENELEMENT}</td>
+        </tr>
+      </table>
+      <br />
+      <p class="ReportTableInfo">40 rows with 2 columns retrieved.</p>
+      <pre class="ReportSQL"> SELECT url, formats from data where source = 'b' and checked = False and not (SELECT formats   &amp;&amp; '{"CSV", "XLS", "XLSX", "JSON", "SHP", "KML", "KMZ", "RDF", "ZIP", "GEOJSON", "GML", "GPX", "GJSON", "TIFF","WMS", "WFS", "GML2", "GML3", "SHAPE", "OVL", "IKT", "CRS", "TCX", "DBF", "SHX"}'::text[])</pre>
+    </div>
+    <div id="ReportFooter">
+Report generated by <a href="http://www.pgadmin.org/">pgAdmin III</a></div>
+    <br />
+  </body>
+</html>
